@@ -3,7 +3,13 @@ frontend-nanodegree-arcade-game
 
 Hi there, this is my solution of the frontend-nanodegree-arcade-game. You can move around the "boy-character" with your 4 arrow keys. The goal is to reach the water without a "bug-collusion" (-:
 
-Here it can be played: https://mircomlr.github.io/frontend-nanodegree-arcade-game/
+Here it can be played online: https://mircomlr.github.io/frontend-nanodegree-arcade-game/
+
+Instructions for loading the game locally:
+- Click "Clone or download" (green button)
+- Download ZIP
+- Unzip folder (frontend-nanodegree-arcade-game-master)
+- Inside folder --> double click index.html (respectively open index.html with your browser)
 
 Best,
 Mirco
