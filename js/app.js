@@ -1,3 +1,4 @@
+"use strict";
 // Enemies our player must avoid
 var Enemy = function(x, y) {
     // Variables applied to each of our instances go here,
@@ -38,7 +39,7 @@ Player.prototype.update = function() {
     this.x = 202;
     window.alert("You did win, if you want to play again press 'OK'");
   }
-  for (i = 0; i < 7; i++) {                                                     // "Distance-logig" for Bug <--> Player from here on
+  for (var i = 0; i < 7; i++) {                                                     // "Distance-logig" for Bug <--> Player from here on
     if (this.y == allEnemies[i].y + 10 && Math.abs(allEnemies[i].x - this.x) < 80 ) {
         location.reload(true);
     };
